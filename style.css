@@ -1,0 +1,519 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+	padding-left:15px;
+	padding-right:15px;
+	
+	
+}
+.flex_container{
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:-15px;
+	margin-right:-15px;
+	
+}
+.flex_item1{
+	width:8.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_2{
+	width:16.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_3{
+	width:25%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+.flex_item_4{
+	width:33.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_5{
+	width:41.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_6{
+	width:50%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_7{
+	width:58.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_8{
+	width:66.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_9{
+	width:75%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_10{
+	width:83.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_11{
+	width:91.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_item_12{
+	width:100%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+/* header start */
+.header{
+	background-color:black;
+	padding:15px 0;
+	width:auto;
+	
+}
+.logo{
+	height:50px;
+	width:auto;
+	background-color:red;
+}
+.navbar{
+	height:50px;
+	width:auto;
+	background-color:red;
+}
+.btn{
+	height:50px;
+	width:auto;
+	background-color:red;
+}
+/* header end */
+
+/* banner section start */
+.banner{
+	background-color:red;
+	padding:15px 0;
+	width:auto;
+	
+}
+.banner_content{
+	height:400px;
+	width:auto;
+	background-color:black;
+	
+}
+/* banner section end */
+
+/* slider_section */
+.slider_section{
+	background-color:black;
+	padding:15px 0;
+	width:auto;
+	/* display:flex; */
+	/* gap:10px; */
+}
+.slider_1{
+	background-color:red;
+	height:100px;
+	width:auto;
+	
+}
+.slider_2{
+	background-color:red;
+	height:100px;
+	width:auto;
+}
+.slider_3{
+	background-color:red;
+	height:100px;
+	width:auto;
+}
+.slider_4{
+	background-color:red;
+	height:100px;
+	width:auto;
+}
+.slider_5{
+	background-color:red;
+	height:100px;
+	width:auto;
+}
+.slider_6{
+	background-color:red;
+	height:100px;
+	width:auto;
+}
+/* slider section end */
+
+/* about section start */
+
+.about_section{
+	background-color:red;
+	width:auto;
+	padding:15px 0;
+}
+.about_left_1{
+	background-color:black;
+	width:auto;
+	height:400px;
+}
+.about_right_1{
+	background-color:black;
+	width:auto;
+	height:180px;
+	margin:10px 0px;
+}
+.about_right_2{
+	background-color:black;
+	width:auto;
+	height:180px;
+	margin:10px 0px;
+}
+.about_right_3{
+	background-color:black;
+	width:auto;
+	height:180px;
+	margin:10px 0px;
+}
+.about_right_4{
+	background-color:black;
+	width:auto;
+	height:180px;
+	margin:10px 0px;
+}
+.about_right{
+	width:auto;
+}
+/* about section end */
+
+
+/* Activities start  */
+
+.activity_section{
+	width:auto;
+	height:240px;
+	background-color:black;
+	padding:50px 0px 50px 0px;
+}
+.activity_clients{
+	width:auto;
+	background-color:red;
+	height:140px;
+}
+.activity_project{
+	width:auto;
+	background-color:red;
+	height:140px;
+}
+.activity_hours{
+	width:auto;
+	background-color:red;
+	height:140px;
+}
+.activity_workers{
+	width:auto;
+	background-color:red;
+	height:140px;
+}
+ /* Activities end */
+ /* modi section start */
+ .modi_section{
+	background-color:red;
+	height:240px;
+	width:auto;
+	padding:50px 0px 50px 0px;
+ }
+ .modi_card_1{
+	background-color:black;
+	height:140px;
+	width:auto;
+ }
+  .modi_card_2{
+	background-color:black;
+	height:140px;
+	width:auto;
+ }
+  .modi_card_3{
+	background-color:black;
+	height:140px;
+	width:auto;
+ }
+  .modi_card_4{
+	background-color:black;
+	height:140px;
+	width:auto;
+ }
+ 
+  /* modi section end */
+  
+  /* labor information start */
+ .labor_in_section{
+	background-color:black;
+	width:auto;
+	height:600px;
+	padding:50px 0px;
+ }
+  .labor_in_1{
+	background-color:red;
+	width:auto;
+	height:500px;
+  }	
+.labor_in_2{
+	background-color:red;
+	width:auto;
+	height:500px;
+ }	
+  /* labor information end */
+  
+  /* services section start */
+  
+ .services_section{
+	background-color:red;
+	height:820px;
+	width:auto;
+ }
+ .services_content{
+	background-color:black;
+	height:100px;
+	width:auto;
+	margin:15px 0px;
+ }
+ .services_content_box{
+	background-color:black;
+	height:200px;
+	width:auto;
+	margin:15px 0px;
+ }
+ 
+ /* services section end */
+ 
+ /* portfolio section start */
+ .portfolio_section{
+	background-color:black;
+	height:460px;
+	width:auto;
+	
+ }
+ .portfolio_head{
+	background-color:red;
+	width:auto;
+	height:200px;
+	margin:20px 0px;
+ }
+ 
+.portfolio_card{
+	background-color:red;
+	height:200px;
+	width:auto;
+}
+ /* portfolio section end */
+ 
+ /* Testimonials section start */
+ 
+  .testimonials_section{
+	background-color:red;
+	height:560px;
+	width:auto;
+	
+ }
+ .testimonials_head{
+	background-color:black;
+	width:auto;
+	height:150px;
+	margin:20px 0px;
+ }
+ 
+.testimonials_card{
+	background-color:black;
+	height:350px;
+	width:auto;
+}
+/* Testimonials section end */
+ 
+/* pricing section start */
+ .pricing_section{
+	background-color:black;
+	height:660px;
+	width:auto;
+	
+ }
+ .pricing_head{
+	background-color:red;
+	width:auto;
+	height:150px;
+	margin:20px 0px;
+ }
+ 
+.pricing_card{
+	background-color:red;
+	height:450px;
+	width:auto;
+}
+
+/* pricing section end  */
+ 
+ /* question section start */
+ .question_section{
+	background-color:red;
+	height:470px;
+	width:auto;
+ }
+ .question_head{
+	background-color:black;
+	width:auto;
+	height:100px;
+	margin:5px 0px; 
+ }
+ .question_item{
+	background-color:black;
+	height:50px;
+	width:auto; 
+	margin:5px 0px;
+ }
+ 
+ /* question section end */
+ 
+ /* team section start */
+  .team_section{
+	background-color:black;
+	height:560px;
+	width:auto;
+	
+ }
+ .team_head{
+	background-color:red;
+	width:auto;
+	height:150px;
+	margin:20px 0px;
+ }
+ 
+.team_card{
+	background-color:red;
+	height:350px;
+	width:auto;
+}
+ 
+ /* team section end */
+ 
+ /* contact section start */
+ .contact_section{
+	background-color:red;
+	width:auto;
+	height:580px;
+ }
+ .contact_head{
+	background-color:black;
+	width:auto;
+	height:100px;
+	margin:20px 0;
+ }
+ .contact_card_right{
+	background-color:black;
+	width:auto;
+	height:400px;
+	margin:20px 0;
+ }
+ /* .contact_card_left{ */
+	/* height:400px; */
+	/* width:auto; */
+ /* } */
+  /* .contact_card_left{ */
+	/* background-color:black; */
+	/* width:auto; */
+	/* height:400px; */
+	/* margin:20px 0; */
+ /* } */
+.contact_card_add{
+	background-color:black;
+	width:auto;
+	height:150px;
+	margin:20px 0;
+}
+
+.contact_card_mail{
+	background-color:black;
+	width:auto;
+	height:210px;
+	margin:20px 0;
+}
+
+.contact_card_call{
+	background-color:black;
+	width:auto;
+	height:210px;
+	margin:20px 0;
+}
+/* contact section end */
+ 
+ /* footer section start */
+ .footer_section{
+	background-color:black;
+	width:auto;
+	height:530px;
+}
+.footer_add{
+	background-color:red;
+	width:auto;
+	height:350px;
+	margin:20px 0px;
+}
+.footer_link{
+	background-color:red;
+	width:auto;
+	height:350px;
+	margin:20px 0px;
+}
+.footer_service{
+	background-color:red;
+	width:auto;
+	height:350px;
+	margin:20px 0px;
+}
+.footer_sub{
+	background-color:red;
+	width:auto;
+	height:350px;
+	margin:20px 0px;
+}
+.footer_details{
+	background-color:red;
+	width:auto;
+	height:100px;
+	margin:20px 0px;
+}
+ /* footer section end */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
